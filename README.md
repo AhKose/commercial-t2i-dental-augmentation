@@ -1,129 +1,146 @@
 # Commercial T2I Dental Augmentation
 
-This repository contains supplementary materials for the study:
+Supplementary repository for the study:
 
 **Commercial Text-to-Image Systems for Synthetic Augmentation of Impacted Teeth Classification in Class-Imbalanced Panoramic Dental Radiographs**
 
-Dataset
+This repository contains synthetic images, fold split information, metadata, and experimental results used to support transparency and reproducibility of the study.
 
-The original real panoramic radiographs are not redistributed in this repository.
+## Overview
 
-This repository provides fold split files and metadata required to reproduce the experimental setup, subject to access to the original dataset.
-
-The task is a patient-level binary impacted-teeth classification problem:
-
-Impacted: 254 patients
-Non-impacted: 451 patients
-Imbalance ratio: 1.78:1
-Synthetic Image Generation
+The study evaluates whether commercially available general-purpose text-to-image systems can provide useful synthetic augmentation for patient-level impacted-teeth classification in class-imbalanced panoramic dental radiographs.
 
 Synthetic minority-class panoramic radiographs were generated using:
 
-OpenAI GPT Image
-Google Gemini Nano Banana 2
+- OpenAI GPT Image
+- Google Gemini Nano Banana 2
 
-Images were generated using simple class-conditional zero-shot prompts without medical-domain fine-tuning, prompt optimization, or task-specific generator adaptation.
+The generated images were added only to the training partitions. Validation and test partitions remained entirely real.
 
-Technical Screening
+## Repository Structure
 
-Generated images were technically screened to remove obvious presentation-level failures, including:
+```text
+.
+├── synthetic_images/
+│   ├── gpt_image/
+│   │   └── technically screened GPT Image outputs
+│   ├── nano_banana_2/
+│   │   └── technically screened Nano Banana 2 outputs
+│   └── expert_validated/
+│       ├── gpt_image/
+│       │   └── expert-approved GPT Image subset
+│       └── nano_banana_2/
+│           └── expert-approved Nano Banana 2 subset
+├── folds/
+│   └── patient-level train, validation, and test split files
+├── metadata/
+│   └── dataset, synthetic image, prompt, expert-review, and subset-selection metadata
+├── results/
+│   └── numerical results reported in the study
+├── docs/
+│   └── supplementary notes, prompt examples, and methodological details
+└── README.md
+```
 
-Non-panoramic outputs
-Visible text artifacts
-Clearly invalid radiographic appearance
+## Folder Descriptions
 
-This screening step was not a clinical validation or pathology-level review.
+### `synthetic_images/`
 
-Expert Validation
+Contains the synthetic panoramic dental radiograph images generated for the study.
 
-A separate expert-validation analysis was performed after technical screening.
+- `gpt_image/` contains the technically screened images generated using GPT Image.
+- `nano_banana_2/` contains the technically screened images generated using Nano Banana 2.
+- `expert_validated/` contains the expert-approved subsets used only in the expert-validation analysis.
 
-An experienced dentist reviewed the technically screened synthetic images and excluded images based on:
+### `folds/`
 
-Duplicates or near-duplicates
-Label inconsistency
-Anatomical implausibility or clinically unrealistic structures
+Contains patient-level fold split files used in the experiments.
 
-The expert-validated subsets were:
+The real DENTEX panoramic radiographs are not redistributed in this repository. The fold files are provided to document the patient-level experimental partitioning used in the study.
 
-GPT Image: 15 images
-Nano Banana 2: 29 images
+### `metadata/`
 
-These subsets were used only for the expert-validation experiment.
+Contains metadata files related to:
 
-Experiments
+- dataset summary
+- synthetic image generation
+- prompt information
+- technical screening
+- expert-validation decisions
+- random subset selections
+- experimental settings
 
-The study includes three experimental analyses.
+### `results/`
+
+Contains numerical result files corresponding to the experiments reported in the paper.
+
+The study includes three experimental analyses:
 
 1. Primary augmentation-utility experiment
-
-Evaluates whether the largest practically available synthetic sets improve performance relative to the no-augmentation baseline.
-
-Conditions:
-
-GPT-35
-Nano-35
-Mixed-70
 2. Matched-budget source comparison
-
-Evaluates generator source, source composition, and augmentation budget under equal total synthetic sample counts.
-
-Conditions:
-
-N=10: GPT-10, Nano-10, Mixed-10
-N=30: GPT-30, Nano-30, Mixed-30
-
-Random subset selection was repeated with three seeds.
-
 3. Expert-validation experiment
 
-Compares expert-filtered subsets against count-matched random subsets from the technically screened synthetic pool.
+### `docs/`
+
+Contains supplementary documentation, such as prompt examples, additional methodological notes, or repository-specific explanations.
+
+## Experimental Design
+
+### 1. Primary Augmentation-Utility Experiment
+
+This experiment evaluates whether the largest practically available synthetic image sets improve classification performance relative to the no-augmentation baseline.
 
 Conditions:
 
-GPT Image: Filtered N=15 vs random N=15
-Nano Banana 2: Filtered N=29 vs random N=29
+- GPT-35
+- Nano-35
+- Mixed-70
+
+The Mixed-70 condition combines 35 GPT Image samples and 35 Nano Banana 2 samples. It should be interpreted as a pooled higher-budget condition rather than a strictly matched source-comparison condition.
+
+### 2. Matched-Budget Source Comparison
+
+This experiment evaluates the effects of generator source, source composition, and augmentation budget under equal total synthetic sample counts.
+
+Conditions:
+
+- GPT-10
+- Nano-10
+- Mixed-10
+- GPT-30
+- Nano-30
+- Mixed-30
+
+The mixed-source conditions use balanced contributions from the two generators:
+
+- Mixed-10: 5 GPT Image + 5 Nano Banana 2
+- Mixed-30: 15 GPT Image + 15 Nano Banana 2
 
 Random subset selection was repeated with three seeds.
 
-Models
+### 3. Expert-Validation Experiment
 
-Two pretrained classification architectures were evaluated:
+This experiment evaluates whether expert-filtered synthetic images provide measurable downstream benefit compared with count-matched random subsets drawn from the technically screened synthetic pool.
 
-DenseNet-121
-Swin-Tiny
+Conditions:
 
-Both models were trained and evaluated using fixed patient-level stratified three-fold cross-validation.
+- GPT Image: expert-filtered N=15 vs random N=15
+- Nano Banana 2: expert-filtered N=29 vs random N=29
 
-Metrics
+Random subset selection was repeated with three seeds.
 
-Primary metrics:
+## Dataset Notice
 
-Minority-class F1
-Macro-F1
+The original real DENTEX panoramic radiographs are not redistributed in this repository.
 
-Secondary metrics:
+Users must obtain the original dataset from its official source. This repository provides only supplementary materials such as synthetic images, fold information, metadata, and results.
 
-ROC AUC
-Accuracy
-Majority-class F1
-Notes on Data Redistribution
+## Synthetic Image Notice
 
-The original dataset images are not included. Users must obtain access to the original dataset from its official source.
+The synthetic images are provided for research transparency.
 
-Synthetic images and metadata are provided only for research reproducibility and should not be interpreted as clinically valid radiographs.
+They should not be interpreted as clinically valid radiographs, diagnostic references, or substitutes for real patient images.
 
-Citation
+## Citation
 
 Citation information will be added after publication.
-
-@article{placeholder,
-  title   = {Commercial Text-to-Image Systems for Synthetic Augmentation of Impacted Teeth Classification in Class-Imbalanced Panoramic Dental Radiographs},
-  author  = {Köse, Abdullah Huzeyfe and Yılmaz, Rahime and Yılmaz, Elif and Ekşioğlu, Ender Mete},
-  journal = {TBD},
-  year    = {TBD}
-}
-
-License
-
-License information will be added.
