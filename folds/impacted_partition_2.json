@@ -1,0 +1,4267 @@
+{
+  "disease": "Impacted",
+  "partition_id": 1,
+  "random_seed": 123,
+  "split_ratios": {
+    "train": 0.699,
+    "val": 0.15,
+    "test": 0.15
+  },
+  "train": {
+    "num_images": 493,
+    "distribution": {
+      "0": 315,
+      "1": 178
+    },
+    "images": [
+      {
+        "image_id": 291,
+        "file_name": "train_128.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 490,
+        "file_name": "train_48.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 302,
+        "file_name": "train_124.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 699,
+        "file_name": "train_193.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 42,
+        "file_name": "train_700.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 137,
+        "file_name": "train_502.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 319,
+        "file_name": "train_648.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 654,
+        "file_name": "train_249.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 110,
+        "file_name": "train_112.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 574,
+        "file_name": "train_279.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 460,
+        "file_name": "train_381.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 46,
+        "file_name": "train_654.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 287,
+        "file_name": "train_37.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 32,
+        "file_name": "train_290.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 330,
+        "file_name": "train_118.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 572,
+        "file_name": "train_47.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 413,
+        "file_name": "train_626.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 145,
+        "file_name": "train_313.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 262,
+        "file_name": "train_322.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 238,
+        "file_name": "train_561.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 484,
+        "file_name": "train_144.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 289,
+        "file_name": "train_353.png",
+        "has_caries": 0,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 570,
+        "file_name": "train_70.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 601,
+        "file_name": "train_380.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 651,
+        "file_name": "train_647.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 181,
+        "file_name": "train_84.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 626,
+        "file_name": "train_357.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 446,
+        "file_name": "train_459.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 437,
+        "file_name": "train_24.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 68,
+        "file_name": "train_404.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 664,
+        "file_name": "train_368.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 263,
+        "file_name": "train_593.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 250,
+        "file_name": "train_515.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 381,
+        "file_name": "train_692.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 487,
+        "file_name": "train_503.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 656,
+        "file_name": "train_180.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 228,
+        "file_name": "train_213.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 360,
+        "file_name": "train_248.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 223,
+        "file_name": "train_446.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 355,
+        "file_name": "train_571.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 120,
+        "file_name": "train_500.png",
+        "has_caries": 0,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 480,
+        "file_name": "train_414.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 310,
+        "file_name": "train_394.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 101,
+        "file_name": "train_125.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 422,
+        "file_name": "train_346.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 22,
+        "file_name": "train_305.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 94,
+        "file_name": "train_309.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 429,
+        "file_name": "train_215.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 90,
+        "file_name": "train_480.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 67,
+        "file_name": "train_634.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 479,
+        "file_name": "train_425.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 196,
+        "file_name": "train_356.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 403,
+        "file_name": "train_639.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 553,
+        "file_name": "train_184.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 392,
+        "file_name": "train_244.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 465,
+        "file_name": "train_76.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 578,
+        "file_name": "train_43.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 684,
+        "file_name": "train_179.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 45,
+        "file_name": "train_7.png",
+        "has_caries": 0,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 20,
+        "file_name": "train_324.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 468,
+        "file_name": "train_532.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 503,
+        "file_name": "train_517.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 562,
+        "file_name": "train_17.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 224,
+        "file_name": "train_549.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 359,
+        "file_name": "train_557.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 638,
+        "file_name": "train_256.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 410,
+        "file_name": "train_59.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 442,
+        "file_name": "train_1.png",
+        "has_caries": 0,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 100,
+        "file_name": "train_538.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 264,
+        "file_name": "train_228.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 623,
+        "file_name": "train_114.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 44,
+        "file_name": "train_682.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 398,
+        "file_name": "train_629.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 165,
+        "file_name": "train_29.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 285,
+        "file_name": "train_171.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 382,
+        "file_name": "train_680.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 193,
+        "file_name": "train_16.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 678,
+        "file_name": "train_465.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 698,
+        "file_name": "train_675.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 57,
+        "file_name": "train_0.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 536,
+        "file_name": "train_481.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 245,
+        "file_name": "train_343.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 389,
+        "file_name": "train_196.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 98,
+        "file_name": "train_87.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 576,
+        "file_name": "train_269.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 255,
+        "file_name": "train_477.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 408,
+        "file_name": "train_122.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 581,
+        "file_name": "train_189.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 679,
+        "file_name": "train_335.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 156,
+        "file_name": "train_436.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 43,
+        "file_name": "train_209.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 102,
+        "file_name": "train_223.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 138,
+        "file_name": "train_573.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 189,
+        "file_name": "train_437.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 176,
+        "file_name": "train_276.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 10,
+        "file_name": "train_31.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 214,
+        "file_name": "train_430.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 141,
+        "file_name": "train_250.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 240,
+        "file_name": "train_455.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 126,
+        "file_name": "train_466.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 610,
+        "file_name": "train_397.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 501,
+        "file_name": "train_492.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 644,
+        "file_name": "train_601.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 547,
+        "file_name": "train_18.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 251,
+        "file_name": "train_460.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 589,
+        "file_name": "train_701.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 161,
+        "file_name": "train_591.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 686,
+        "file_name": "train_558.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 324,
+        "file_name": "train_636.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 201,
+        "file_name": "train_506.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 386,
+        "file_name": "train_121.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 414,
+        "file_name": "train_74.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 40,
+        "file_name": "train_383.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 232,
+        "file_name": "train_9.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 347,
+        "file_name": "train_408.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 649,
+        "file_name": "train_258.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 514,
+        "file_name": "train_472.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 204,
+        "file_name": "train_177.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 511,
+        "file_name": "train_78.png",
+        "has_caries": 0,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 506,
+        "file_name": "train_81.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 218,
+        "file_name": "train_347.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 374,
+        "file_name": "train_314.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 162,
+        "file_name": "train_505.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 470,
+        "file_name": "train_379.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 680,
+        "file_name": "train_627.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 648,
+        "file_name": "train_378.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 27,
+        "file_name": "train_453.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 531,
+        "file_name": "train_523.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 312,
+        "file_name": "train_423.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 222,
+        "file_name": "train_129.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 582,
+        "file_name": "train_75.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 650,
+        "file_name": "train_616.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 80,
+        "file_name": "train_431.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 363,
+        "file_name": "train_484.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 221,
+        "file_name": "train_618.png",
+        "has_caries": 0,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 611,
+        "file_name": "train_508.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 542,
+        "file_name": "train_533.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 602,
+        "file_name": "train_633.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 36,
+        "file_name": "train_666.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 306,
+        "file_name": "train_280.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 11,
+        "file_name": "train_498.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 605,
+        "file_name": "train_520.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 207,
+        "file_name": "train_524.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 691,
+        "file_name": "train_194.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 376,
+        "file_name": "train_600.png",
+        "has_caries": 0,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 526,
+        "file_name": "train_575.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 425,
+        "file_name": "train_396.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 77,
+        "file_name": "train_405.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 315,
+        "file_name": "train_234.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 124,
+        "file_name": "train_315.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 516,
+        "file_name": "train_212.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 304,
+        "file_name": "train_528.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 687,
+        "file_name": "train_479.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 217,
+        "file_name": "train_578.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 127,
+        "file_name": "train_263.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 701,
+        "file_name": "train_338.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 14,
+        "file_name": "train_458.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 174,
+        "file_name": "train_243.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 619,
+        "file_name": "train_284.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 358,
+        "file_name": "train_105.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 350,
+        "file_name": "train_699.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 449,
+        "file_name": "train_142.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 527,
+        "file_name": "train_554.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 95,
+        "file_name": "train_5.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 541,
+        "file_name": "train_443.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 500,
+        "file_name": "train_543.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 387,
+        "file_name": "train_64.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 160,
+        "file_name": "train_220.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 213,
+        "file_name": "train_392.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 557,
+        "file_name": "train_207.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 407,
+        "file_name": "train_442.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 12,
+        "file_name": "train_264.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 187,
+        "file_name": "train_496.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 92,
+        "file_name": "train_108.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 537,
+        "file_name": "train_126.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 412,
+        "file_name": "train_349.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 385,
+        "file_name": "train_409.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 593,
+        "file_name": "train_419.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 598,
+        "file_name": "train_307.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 544,
+        "file_name": "train_501.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 278,
+        "file_name": "train_373.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 700,
+        "file_name": "train_613.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 456,
+        "file_name": "train_237.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 185,
+        "file_name": "train_615.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 505,
+        "file_name": "train_147.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 434,
+        "file_name": "train_245.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 608,
+        "file_name": "train_36.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 441,
+        "file_name": "train_73.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 584,
+        "file_name": "train_684.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 260,
+        "file_name": "train_336.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 292,
+        "file_name": "train_252.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 135,
+        "file_name": "train_210.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 704,
+        "file_name": "train_599.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 81,
+        "file_name": "train_518.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 683,
+        "file_name": "train_556.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 396,
+        "file_name": "train_401.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 93,
+        "file_name": "train_521.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 247,
+        "file_name": "train_25.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 485,
+        "file_name": "train_208.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 113,
+        "file_name": "train_457.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 636,
+        "file_name": "train_667.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 476,
+        "file_name": "train_697.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 447,
+        "file_name": "train_377.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 313,
+        "file_name": "train_56.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 144,
+        "file_name": "train_451.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 169,
+        "file_name": "train_372.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 451,
+        "file_name": "train_439.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 404,
+        "file_name": "train_582.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 150,
+        "file_name": "train_169.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 674,
+        "file_name": "train_323.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 433,
+        "file_name": "train_50.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 612,
+        "file_name": "train_522.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 349,
+        "file_name": "train_27.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 173,
+        "file_name": "train_247.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 520,
+        "file_name": "train_420.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 109,
+        "file_name": "train_683.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 188,
+        "file_name": "train_79.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 194,
+        "file_name": "train_103.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 7,
+        "file_name": "train_637.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 419,
+        "file_name": "train_590.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 195,
+        "file_name": "train_155.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 41,
+        "file_name": "train_536.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 436,
+        "file_name": "train_406.png",
+        "has_caries": 0,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 471,
+        "file_name": "train_486.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 234,
+        "file_name": "train_681.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 498,
+        "file_name": "train_119.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 86,
+        "file_name": "train_326.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 540,
+        "file_name": "train_149.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 256,
+        "file_name": "train_583.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 528,
+        "file_name": "train_625.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 37,
+        "file_name": "train_440.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 478,
+        "file_name": "train_168.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 30,
+        "file_name": "train_499.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 225,
+        "file_name": "train_464.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 129,
+        "file_name": "train_166.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 585,
+        "file_name": "train_32.png",
+        "has_caries": 0,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 530,
+        "file_name": "train_202.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 567,
+        "file_name": "train_302.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 206,
+        "file_name": "train_611.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 265,
+        "file_name": "train_412.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 338,
+        "file_name": "train_565.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 128,
+        "file_name": "train_240.png",
+        "has_caries": 0,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 409,
+        "file_name": "train_478.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 235,
+        "file_name": "train_261.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 83,
+        "file_name": "train_110.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 337,
+        "file_name": "train_51.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 415,
+        "file_name": "train_566.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 588,
+        "file_name": "train_550.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 474,
+        "file_name": "train_375.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 630,
+        "file_name": "train_490.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 690,
+        "file_name": "train_668.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 8,
+        "file_name": "train_187.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 131,
+        "file_name": "train_604.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 417,
+        "file_name": "train_526.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 332,
+        "file_name": "train_367.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 564,
+        "file_name": "train_678.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 91,
+        "file_name": "train_231.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 658,
+        "file_name": "train_13.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 107,
+        "file_name": "train_686.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 370,
+        "file_name": "train_631.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 50,
+        "file_name": "train_493.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 301,
+        "file_name": "train_172.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 309,
+        "file_name": "train_265.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 459,
+        "file_name": "train_473.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 16,
+        "file_name": "train_12.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 517,
+        "file_name": "train_560.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 241,
+        "file_name": "train_519.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 563,
+        "file_name": "train_619.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 600,
+        "file_name": "train_418.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 177,
+        "file_name": "train_551.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 463,
+        "file_name": "train_691.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 54,
+        "file_name": "train_482.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 182,
+        "file_name": "train_467.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 577,
+        "file_name": "train_131.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 333,
+        "file_name": "train_586.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 18,
+        "file_name": "train_559.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 378,
+        "file_name": "train_161.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 210,
+        "file_name": "train_130.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 670,
+        "file_name": "train_342.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 383,
+        "file_name": "train_530.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 402,
+        "file_name": "train_116.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 613,
+        "file_name": "train_384.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 147,
+        "file_name": "train_428.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 253,
+        "file_name": "train_107.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 508,
+        "file_name": "train_91.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 681,
+        "file_name": "train_227.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 538,
+        "file_name": "train_432.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 82,
+        "file_name": "train_606.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 362,
+        "file_name": "train_293.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 440,
+        "file_name": "train_206.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 117,
+        "file_name": "train_452.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 323,
+        "file_name": "train_134.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 432,
+        "file_name": "train_382.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 97,
+        "file_name": "train_141.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 171,
+        "file_name": "train_415.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 606,
+        "file_name": "train_163.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 497,
+        "file_name": "train_579.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 79,
+        "file_name": "train_92.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 308,
+        "file_name": "train_200.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 233,
+        "file_name": "train_135.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 592,
+        "file_name": "train_333.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 621,
+        "file_name": "train_671.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 200,
+        "file_name": "train_327.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 305,
+        "file_name": "train_576.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 33,
+        "file_name": "train_254.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 15,
+        "file_name": "train_646.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 594,
+        "file_name": "train_537.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 152,
+        "file_name": "train_511.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 590,
+        "file_name": "train_21.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 539,
+        "file_name": "train_262.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 450,
+        "file_name": "train_2.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 231,
+        "file_name": "train_546.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 354,
+        "file_name": "train_297.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 445,
+        "file_name": "train_594.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 163,
+        "file_name": "train_291.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 627,
+        "file_name": "train_567.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 675,
+        "file_name": "train_444.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 535,
+        "file_name": "train_659.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 274,
+        "file_name": "train_527.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 72,
+        "file_name": "train_630.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 303,
+        "file_name": "train_145.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 622,
+        "file_name": "train_60.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 640,
+        "file_name": "train_221.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 643,
+        "file_name": "train_97.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 261,
+        "file_name": "train_195.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 703,
+        "file_name": "train_344.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 472,
+        "file_name": "train_132.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 134,
+        "file_name": "train_319.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 565,
+        "file_name": "train_268.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 23,
+        "file_name": "train_348.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 549,
+        "file_name": "train_504.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 281,
+        "file_name": "train_156.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 452,
+        "file_name": "train_638.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 356,
+        "file_name": "train_301.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 491,
+        "file_name": "train_352.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 591,
+        "file_name": "train_165.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 444,
+        "file_name": "train_106.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 49,
+        "file_name": "train_568.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 139,
+        "file_name": "train_588.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 373,
+        "file_name": "train_470.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 616,
+        "file_name": "train_140.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 548,
+        "file_name": "train_39.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 645,
+        "file_name": "train_197.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 229,
+        "file_name": "train_658.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 512,
+        "file_name": "train_650.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 154,
+        "file_name": "train_255.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 488,
+        "file_name": "train_282.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 411,
+        "file_name": "train_83.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 371,
+        "file_name": "train_624.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 65,
+        "file_name": "train_113.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 390,
+        "file_name": "train_689.png",
+        "has_caries": 0,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 288,
+        "file_name": "train_98.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 477,
+        "file_name": "train_77.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 695,
+        "file_name": "train_120.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 25,
+        "file_name": "train_176.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 379,
+        "file_name": "train_174.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 405,
+        "file_name": "train_259.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 580,
+        "file_name": "train_653.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 209,
+        "file_name": "train_596.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 524,
+        "file_name": "train_672.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 212,
+        "file_name": "train_277.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 190,
+        "file_name": "train_462.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 283,
+        "file_name": "train_555.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 617,
+        "file_name": "train_449.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 467,
+        "file_name": "train_69.png",
+        "has_caries": 0,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 3,
+        "file_name": "train_435.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 159,
+        "file_name": "train_388.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 230,
+        "file_name": "train_540.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 555,
+        "file_name": "train_72.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 662,
+        "file_name": "train_360.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 248,
+        "file_name": "train_287.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 458,
+        "file_name": "train_461.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 205,
+        "file_name": "train_30.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 244,
+        "file_name": "train_49.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 53,
+        "file_name": "train_225.png",
+        "has_caries": 0,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 513,
+        "file_name": "train_341.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 457,
+        "file_name": "train_652.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 499,
+        "file_name": "train_109.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 149,
+        "file_name": "train_101.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 677,
+        "file_name": "train_185.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 282,
+        "file_name": "train_57.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 298,
+        "file_name": "train_304.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 391,
+        "file_name": "train_369.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 377,
+        "file_name": "train_150.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 273,
+        "file_name": "train_665.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 353,
+        "file_name": "train_374.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 39,
+        "file_name": "train_41.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 430,
+        "file_name": "train_148.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 276,
+        "file_name": "train_88.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 322,
+        "file_name": "train_241.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 628,
+        "file_name": "train_399.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 267,
+        "file_name": "train_674.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 642,
+        "file_name": "train_563.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 96,
+        "file_name": "train_424.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 146,
+        "file_name": "train_704.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 294,
+        "file_name": "train_286.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 372,
+        "file_name": "train_677.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 481,
+        "file_name": "train_267.png",
+        "has_caries": 0,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 118,
+        "file_name": "train_66.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 28,
+        "file_name": "train_289.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 518,
+        "file_name": "train_295.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 122,
+        "file_name": "train_246.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 296,
+        "file_name": "train_703.png",
+        "has_caries": 0,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 624,
+        "file_name": "train_318.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 632,
+        "file_name": "train_587.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 560,
+        "file_name": "train_359.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 293,
+        "file_name": "train_211.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 461,
+        "file_name": "train_361.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 197,
+        "file_name": "train_362.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 661,
+        "file_name": "train_82.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 671,
+        "file_name": "train_429.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 219,
+        "file_name": "train_143.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 239,
+        "file_name": "train_696.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 318,
+        "file_name": "train_214.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 208,
+        "file_name": "train_325.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 339,
+        "file_name": "train_219.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 103,
+        "file_name": "train_656.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 569,
+        "file_name": "train_661.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 125,
+        "file_name": "train_456.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 329,
+        "file_name": "train_413.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 299,
+        "file_name": "train_585.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 393,
+        "file_name": "train_173.png",
+        "has_caries": 0,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 615,
+        "file_name": "train_553.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 326,
+        "file_name": "train_183.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 63,
+        "file_name": "train_592.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 236,
+        "file_name": "train_152.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 76,
+        "file_name": "train_441.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 618,
+        "file_name": "train_547.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 320,
+        "file_name": "train_376.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 280,
+        "file_name": "train_181.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 84,
+        "file_name": "train_153.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 112,
+        "file_name": "train_355.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 116,
+        "file_name": "train_86.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 367,
+        "file_name": "train_695.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 13,
+        "file_name": "train_581.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 455,
+        "file_name": "train_146.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 64,
+        "file_name": "train_541.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 469,
+        "file_name": "train_226.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 277,
+        "file_name": "train_11.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 164,
+        "file_name": "train_510.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 266,
+        "file_name": "train_26.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 483,
+        "file_name": "train_8.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 180,
+        "file_name": "train_529.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 186,
+        "file_name": "train_330.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 258,
+        "file_name": "train_4.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 321,
+        "file_name": "train_620.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 342,
+        "file_name": "train_685.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 70,
+        "file_name": "train_495.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 556,
+        "file_name": "train_192.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 199,
+        "file_name": "train_570.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 595,
+        "file_name": "train_63.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 596,
+        "file_name": "train_574.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 509,
+        "file_name": "train_272.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 148,
+        "file_name": "train_273.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 38,
+        "file_name": "train_61.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 466,
+        "file_name": "train_236.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 85,
+        "file_name": "train_137.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 295,
+        "file_name": "train_93.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 629,
+        "file_name": "train_390.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 395,
+        "file_name": "train_488.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 416,
+        "file_name": "train_660.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 579,
+        "file_name": "train_230.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 47,
+        "file_name": "train_54.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 657,
+        "file_name": "train_317.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 663,
+        "file_name": "train_589.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 443,
+        "file_name": "train_100.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 59,
+        "file_name": "train_698.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 227,
+        "file_name": "train_218.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 357,
+        "file_name": "train_476.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 271,
+        "file_name": "train_416.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 21,
+        "file_name": "train_136.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 343,
+        "file_name": "train_483.png",
+        "has_caries": 0,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 365,
+        "file_name": "train_688.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 496,
+        "file_name": "train_410.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 428,
+        "file_name": "train_535.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 35,
+        "file_name": "train_702.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 34,
+        "file_name": "train_271.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 143,
+        "file_name": "train_127.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 492,
+        "file_name": "train_411.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 384,
+        "file_name": "train_632.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 87,
+        "file_name": "train_687.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 300,
+        "file_name": "train_584.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 157,
+        "file_name": "train_645.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 336,
+        "file_name": "train_662.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 78,
+        "file_name": "train_694.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 215,
+        "file_name": "train_471.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 31,
+        "file_name": "train_669.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 366,
+        "file_name": "train_612.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 279,
+        "file_name": "train_542.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 311,
+        "file_name": "train_468.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 105,
+        "file_name": "train_534.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 571,
+        "file_name": "train_345.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 525,
+        "file_name": "train_628.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      }
+    ]
+  },
+  "val": {
+    "num_images": 106,
+    "distribution": {
+      "0": 68,
+      "1": 38
+    },
+    "images": [
+      {
+        "image_id": 249,
+        "file_name": "train_365.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 191,
+        "file_name": "train_216.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 666,
+        "file_name": "train_71.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 631,
+        "file_name": "train_642.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 423,
+        "file_name": "train_469.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 448,
+        "file_name": "train_164.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 246,
+        "file_name": "train_159.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 689,
+        "file_name": "train_138.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 587,
+        "file_name": "train_175.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 24,
+        "file_name": "train_251.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 464,
+        "file_name": "train_351.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 659,
+        "file_name": "train_463.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 121,
+        "file_name": "train_531.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 375,
+        "file_name": "train_635.png",
+        "has_caries": 0,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 637,
+        "file_name": "train_139.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 6,
+        "file_name": "train_62.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 625,
+        "file_name": "train_395.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 220,
+        "file_name": "train_80.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 380,
+        "file_name": "train_151.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 284,
+        "file_name": "train_308.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 286,
+        "file_name": "train_421.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 178,
+        "file_name": "train_170.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 71,
+        "file_name": "train_447.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 254,
+        "file_name": "train_85.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 400,
+        "file_name": "train_489.png",
+        "has_caries": 0,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 696,
+        "file_name": "train_238.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 58,
+        "file_name": "train_663.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 290,
+        "file_name": "train_14.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 268,
+        "file_name": "train_609.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 115,
+        "file_name": "train_385.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 345,
+        "file_name": "train_340.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 510,
+        "file_name": "train_296.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 73,
+        "file_name": "train_474.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 368,
+        "file_name": "train_257.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 685,
+        "file_name": "train_329.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 394,
+        "file_name": "train_94.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 19,
+        "file_name": "train_693.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 431,
+        "file_name": "train_403.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 533,
+        "file_name": "train_595.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 216,
+        "file_name": "train_450.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 334,
+        "file_name": "train_386.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 494,
+        "file_name": "train_89.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 653,
+        "file_name": "train_350.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 259,
+        "file_name": "train_154.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 132,
+        "file_name": "train_199.png",
+        "has_caries": 0,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 297,
+        "file_name": "train_610.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 473,
+        "file_name": "train_239.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 660,
+        "file_name": "train_68.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 697,
+        "file_name": "train_224.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 692,
+        "file_name": "train_111.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 346,
+        "file_name": "train_643.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 418,
+        "file_name": "train_614.png",
+        "has_caries": 0,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 614,
+        "file_name": "train_569.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 667,
+        "file_name": "train_46.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 647,
+        "file_name": "train_422.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 62,
+        "file_name": "train_617.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 462,
+        "file_name": "train_651.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 438,
+        "file_name": "train_552.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 646,
+        "file_name": "train_275.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 136,
+        "file_name": "train_400.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 609,
+        "file_name": "train_186.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 693,
+        "file_name": "train_33.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 672,
+        "file_name": "train_90.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 237,
+        "file_name": "train_548.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 331,
+        "file_name": "train_40.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 668,
+        "file_name": "train_34.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 388,
+        "file_name": "train_507.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 51,
+        "file_name": "train_311.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 453,
+        "file_name": "train_306.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 406,
+        "file_name": "train_205.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 4,
+        "file_name": "train_95.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 635,
+        "file_name": "train_641.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 352,
+        "file_name": "train_622.png",
+        "has_caries": 0,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 603,
+        "file_name": "train_491.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 168,
+        "file_name": "train_274.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 575,
+        "file_name": "train_201.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 604,
+        "file_name": "train_354.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 652,
+        "file_name": "train_178.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 140,
+        "file_name": "train_204.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 316,
+        "file_name": "train_299.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 620,
+        "file_name": "train_222.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 521,
+        "file_name": "train_572.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 142,
+        "file_name": "train_266.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 75,
+        "file_name": "train_294.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 172,
+        "file_name": "train_331.png",
+        "has_caries": 0,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 270,
+        "file_name": "train_514.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 167,
+        "file_name": "train_434.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 119,
+        "file_name": "train_300.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 243,
+        "file_name": "train_623.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 552,
+        "file_name": "train_644.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 401,
+        "file_name": "train_334.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 676,
+        "file_name": "train_525.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 669,
+        "file_name": "train_298.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 551,
+        "file_name": "train_339.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 361,
+        "file_name": "train_253.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 183,
+        "file_name": "train_664.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 252,
+        "file_name": "train_454.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 66,
+        "file_name": "train_217.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 554,
+        "file_name": "train_167.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 568,
+        "file_name": "train_426.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 2,
+        "file_name": "train_283.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 106,
+        "file_name": "train_188.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 426,
+        "file_name": "train_20.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 424,
+        "file_name": "train_320.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 307,
+        "file_name": "train_312.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 495,
+        "file_name": "train_398.png",
+        "has_caries": 0,
+        "has_impacted": 1
+      }
+    ]
+  },
+  "test": {
+    "num_images": 106,
+    "distribution": {
+      "0": 68,
+      "1": 38
+    },
+    "images": [
+      {
+        "image_id": 130,
+        "file_name": "train_603.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 29,
+        "file_name": "train_229.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 198,
+        "file_name": "train_10.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 515,
+        "file_name": "train_198.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 351,
+        "file_name": "train_65.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 559,
+        "file_name": "train_598.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 314,
+        "file_name": "train_158.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 399,
+        "file_name": "train_605.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 328,
+        "file_name": "train_123.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 454,
+        "file_name": "train_6.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 607,
+        "file_name": "train_242.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 344,
+        "file_name": "train_260.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 99,
+        "file_name": "train_608.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 60,
+        "file_name": "train_292.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 335,
+        "file_name": "train_104.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 61,
+        "file_name": "train_19.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 69,
+        "file_name": "train_117.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 52,
+        "file_name": "train_655.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 633,
+        "file_name": "train_53.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 583,
+        "file_name": "train_580.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 421,
+        "file_name": "train_321.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 226,
+        "file_name": "train_676.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 327,
+        "file_name": "train_366.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 586,
+        "file_name": "train_316.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 682,
+        "file_name": "train_52.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 420,
+        "file_name": "train_67.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 175,
+        "file_name": "train_332.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 427,
+        "file_name": "train_597.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 179,
+        "file_name": "train_407.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 5,
+        "file_name": "train_475.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 55,
+        "file_name": "train_487.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 158,
+        "file_name": "train_438.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 688,
+        "file_name": "train_607.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 435,
+        "file_name": "train_337.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 702,
+        "file_name": "train_657.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 482,
+        "file_name": "train_448.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 211,
+        "file_name": "train_402.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 641,
+        "file_name": "train_23.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 202,
+        "file_name": "train_391.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 192,
+        "file_name": "train_497.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 317,
+        "file_name": "train_115.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 694,
+        "file_name": "train_389.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 475,
+        "file_name": "train_190.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 534,
+        "file_name": "train_690.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 26,
+        "file_name": "train_621.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 599,
+        "file_name": "train_278.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 114,
+        "file_name": "train_58.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 104,
+        "file_name": "train_328.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 257,
+        "file_name": "train_602.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 340,
+        "file_name": "train_133.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 56,
+        "file_name": "train_3.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 111,
+        "file_name": "train_393.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 522,
+        "file_name": "train_157.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 673,
+        "file_name": "train_45.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 532,
+        "file_name": "train_640.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 170,
+        "file_name": "train_417.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 89,
+        "file_name": "train_544.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 123,
+        "file_name": "train_35.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 1,
+        "file_name": "train_673.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 543,
+        "file_name": "train_433.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 151,
+        "file_name": "train_303.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 364,
+        "file_name": "train_649.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 153,
+        "file_name": "train_162.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 486,
+        "file_name": "train_96.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 88,
+        "file_name": "train_545.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 573,
+        "file_name": "train_15.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 397,
+        "file_name": "train_232.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 566,
+        "file_name": "train_182.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 155,
+        "file_name": "train_485.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 529,
+        "file_name": "train_494.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 184,
+        "file_name": "train_102.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 546,
+        "file_name": "train_270.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 502,
+        "file_name": "train_364.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 489,
+        "file_name": "train_99.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 369,
+        "file_name": "train_562.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 493,
+        "file_name": "train_512.png",
+        "has_caries": 0,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 9,
+        "file_name": "train_509.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 74,
+        "file_name": "train_679.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 242,
+        "file_name": "train_358.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 634,
+        "file_name": "train_427.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 439,
+        "file_name": "train_387.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 48,
+        "file_name": "train_233.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 203,
+        "file_name": "train_22.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 108,
+        "file_name": "train_513.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 507,
+        "file_name": "train_28.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 325,
+        "file_name": "train_281.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 705,
+        "file_name": "train_370.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 504,
+        "file_name": "train_310.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 133,
+        "file_name": "train_285.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 272,
+        "file_name": "train_191.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 269,
+        "file_name": "train_160.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 17,
+        "file_name": "train_564.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 665,
+        "file_name": "train_288.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 523,
+        "file_name": "train_445.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 639,
+        "file_name": "train_42.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 545,
+        "file_name": "train_371.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 275,
+        "file_name": "train_38.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 561,
+        "file_name": "train_539.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 558,
+        "file_name": "train_516.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 655,
+        "file_name": "train_235.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 348,
+        "file_name": "train_670.png",
+        "has_caries": 1,
+        "has_impacted": 1
+      },
+      {
+        "image_id": 519,
+        "file_name": "train_203.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 166,
+        "file_name": "train_44.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 550,
+        "file_name": "train_577.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 341,
+        "file_name": "train_363.png",
+        "has_caries": 0,
+        "has_impacted": 0
+      },
+      {
+        "image_id": 597,
+        "file_name": "train_55.png",
+        "has_caries": 1,
+        "has_impacted": 0
+      }
+    ]
+  }
+}
