@@ -35,8 +35,6 @@ The generated images were added only to the training partitions. Validation and 
 │   └── patient-level train, validation, and test split files
 ├── metadata/
 │   └── dataset, synthetic image, prompt, expert-review, and subset-selection metadata
-├── results/
-│   └── numerical results reported in the study
 ├── docs/
 │   └── supplementary notes, prompt examples, and methodological details
 └── README.md
@@ -70,15 +68,6 @@ Contains metadata files related to:
 - random subset selections
 - experimental settings
 
-### `results/`
-
-Contains numerical result files corresponding to the experiments reported in the paper.
-
-The study includes three experimental analyses:
-
-1. Primary augmentation-utility experiment
-2. Matched-budget source comparison
-3. Expert-validation experiment
 
 ### `docs/`
 
