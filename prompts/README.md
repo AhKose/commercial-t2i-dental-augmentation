@@ -2,7 +2,7 @@
 
 This folder provides representative prompt examples used during the synthetic panoramic radiograph generation process.
 
-The examples are included to document the conditional zero-shot prompting workflow used with the commercial text-to-image systems evaluated in this study.
+The examples are included to document the short class-conditional zero-shot prompting workflow used with the commercial text-to-image systems evaluated in this study.
 
 ## Purpose
 
@@ -10,17 +10,21 @@ The prompt examples are provided for transparency regarding how synthetic panora
 
 They are not intended to represent the complete prompt history or the full set of prompts used in the study. Instead, they provide representative examples of the prompting style and generation workflow.
 
-## Conditional Zero-Shot Prompting
+## Prompting Strategy
 
-In this study, conditional zero-shot prompting refers to the use of pre-trained commercial text-to-image systems without medical-domain fine-tuning, task-specific adaptation, or local generator training.
+Image generation was performed using short class-conditional zero-shot prompts.
 
-The generation requests were conditioned through natural-language prompts that specified:
+In this study, the prompts were used with pre-trained commercial text-to-image systems without medical-domain fine-tuning, task-specific adaptation, or local generator training.
 
-- the target class, namely impacted teeth
+The prompts were written in a simple descriptive style and generally specified:
+
 - the intended image type, namely panoramic dental X-ray
-- image-level requirements such as HEIGHT = 384 and WIDTH = 768
+- the target class attribute, namely the presence of impacted teeth
+- basic image-level requirements, such as HEIGHT = 384 and WIDTH = 768
 - absence of visible text on the image
-- selected anatomical variations, such as missing molar or anterior teeth
+- selected visual variations, such as missing molar or anterior teeth
+
+Prompt construction followed a minimal engineering-oriented workflow rather than expert-authored clinical prompt design. No iterative prompt optimization was performed to maximize medical realism.
 
 Some images were generated from initial prompts, while others were generated using follow-up prompts in the same generation session. Therefore, follow-up prompts should be interpreted together with the preceding prompt context.
 
@@ -84,15 +88,16 @@ This initial prompt was then followed by additional variation-oriented prompts t
 
 ## Screening After Generation
 
-Generated images were subjected to technical screening before inclusion in the synthetic image pool.
+Generated images were subjected to a limited technical screening step before inclusion in the synthetic image pool.
 
-Images with obvious presentation-level failures were excluded or regenerated during dataset construction. These failures included, but were not limited to:
+Images with clearly unusable presentation-level artifacts were excluded or regenerated when necessary. These failures included, but were not limited to:
 
 - visible text artifacts
-- non-panoramic appearance
-- clearly invalid radiographic structure
-- severe anatomical implausibility
-- low-quality or unusable image output
+- non-panoramic image structure
+- visibly invalid radiographic appearance
+- clearly unusable image output
+
+This screening step was intended only to remove obvious technical failures during dataset construction. It did not include clinical validation, anatomical assessment, or pathology-level review.
 
 Only technically screened images were retained in the synthetic image folders.
 
@@ -100,4 +105,4 @@ Only technically screened images were retained in the synthetic image folders.
 
 The prompts listed here are representative examples rather than the complete set of prompts used in the study.
 
-They are provided to improve transparency regarding the generation process and to illustrate how conditional zero-shot prompting was applied for minority-class synthetic augmentation.
+They are provided to improve transparency regarding the generation process and to illustrate how short class-conditional zero-shot prompting was applied for minority-class synthetic augmentation.
