@@ -4,7 +4,7 @@ Supplementary repository for the study:
 
 **Commercial Text-to-Image Systems for Synthetic Augmentation of Impacted Teeth Classification in Class-Imbalanced Panoramic Dental Radiographs**
 
-This repository contains synthetic images, fold split information, metadata, and experimental results used to support transparency and reproducibility of the study.
+This repository contains supplementary materials used to support the transparency and reproducibility of the study, including synthetic images, patient-level fold partitions, representative prompt examples, expert-validation records, and source code to be released after manuscript acceptance.
 
 ## Overview
 
@@ -22,21 +22,22 @@ The generated images were added only to the training partitions. Validation and 
 ```text
 .
 ├── synthetic_images/
+│   ├── README.md
 │   ├── gpt_image/
 │   │   └── technically screened GPT Image outputs
 │   ├── nano_banana_2/
 │   │   └── technically screened Nano Banana 2 outputs
 │   └── expert_validated/
-│       ├── gpt_image/
-│       │   └── expert-approved GPT Image subset
-│       └── nano_banana_2/
-│           └── expert-approved Nano Banana 2 subset
+│       └── README.md
 ├── folds/
-│   └── patient-level train, validation, and test split files
+│   ├── README.md
+│   ├── impacted_partition_1.json
+│   ├── impacted_partition_2.json
+│   └── impacted_partition_3.json
 ├── prompts/
-│   └── prompt examples and corresponding generated image information
-├── codes/
-│   └── source code files to be released after manuscript acceptance
+│   └── README.md
+├── code/
+│   └── README.md
 └── README.md
 ```
 
@@ -44,29 +45,33 @@ The generated images were added only to the training partitions. Validation and 
 
 ### `synthetic_images/`
 
-Contains the synthetic panoramic dental radiograph images generated for the study.
+Contains the technically screened synthetic panoramic dental radiographs generated for the study.
 
-- `gpt_image/` contains the technically screened images generated using GPT Image.
-- `nano_banana_2/` contains the technically screened images generated using Nano Banana 2.
-- `expert_validated/` contains the expert-approved subsets used only in the expert-validation analysis.
+- `gpt_image/` contains technically screened images generated using GPT Image.
+- `nano_banana_2/` contains technically screened images generated using Nano Banana 2.
+- `expert_validated/` documents the expert-validation decisions at the filename level.
+
+The synthetic images were used only as additional training samples. They were not included in validation or test partitions.
 
 ### `folds/`
 
-Contains patient-level fold split files used in the experiments.
+Contains the fixed patient-level stratified fold partitions used in the impacted-teeth classification experiments.
+
+Each JSON file corresponds to one partition/fold and includes train, validation, and test image lists together with class-distribution information and selected source annotations.
 
 The real DENTEX panoramic radiographs are not redistributed in this repository. The fold files are provided to document the patient-level experimental partitioning used in the study.
 
 ### `prompts/`
 
-Contains representative prompt examples used for synthetic image generation.
+Contains representative English prompt examples documenting the short class-conditional zero-shot prompting workflow used for synthetic image generation.
 
-Where applicable, prompt examples are linked to the corresponding generated image filenames. These files are provided to document the zero-shot generation procedure used in the study.
+The prompt examples are representative rather than exhaustive. They are provided to improve transparency regarding the generation procedure.
 
-### `codes/`
+### `code/`
 
 Contains the source code associated with the manuscript.
 
-The code used for preprocessing, hyperparameter tuning, model training, evaluation, and result analysis will be released after manuscript acceptance.
+The source code associated with this study will be made available in this repository after manuscript acceptance.
 
 ## Experimental Design
 
@@ -108,14 +113,14 @@ This experiment evaluates whether expert-filtered synthetic images provide measu
 
 Conditions:
 
-- GPT Image: expert-filtered N=15 vs random N=15
-- Nano Banana 2: expert-filtered N=29 vs random N=29
+- GPT Image: expert-filtered N = 15 vs. three random N = 15 subsets
+- Nano Banana 2: expert-filtered N = 29 vs. three random N = 29 subsets
 
-Random subset selection was repeated with three seeds.
+Random subsets were sampled from the corresponding technically screened synthetic pools using three random seeds.
 
 ## Code Availability
 
-The source code associated with this manuscript will be released in this repository after manuscript acceptance.
+The source code associated with this study will be made available in this repository after manuscript acceptance.
 
 ## Dataset Notice
 
@@ -125,13 +130,15 @@ Users must obtain the original dataset from its official source:
 
 S. Er, “DENTEX Challenge 2023,” Zenodo, 2023, doi: 10.5281/zenodo.7812323.
 
-This repository provides only supplementary materials, including synthetic images, fold information, prompt examples, expert-validation records, and source code to be released after manuscript acceptance.
+This repository provides supplementary materials, including synthetic images, patient-level fold partition files, representative prompt examples, expert-validation records, and source code to be released after manuscript acceptance.
 
 ## Synthetic Image Notice
 
-The synthetic images are provided for research transparency.
+The synthetic images are provided for research transparency and reproducibility support.
 
 They should not be interpreted as clinically valid radiographs, diagnostic references, or substitutes for real patient images.
+
+They should not be used for clinical decision-making, diagnosis, or treatment planning.
 
 ## Citation
 
