@@ -33,10 +33,10 @@ The generated images were added only to the training partitions. Validation and 
 │           └── expert-approved Nano Banana 2 subset
 ├── folds/
 │   └── patient-level train, validation, and test split files
-├── metadata/
-│   └── dataset, synthetic image, prompt, expert-review, and subset-selection metadata
-├── docs/
-│   └── supplementary notes, prompt examples, and methodological details
+├── prompts/
+│   └── prompt examples and corresponding generated image information
+├── codes/
+│   └── source code files to be released after manuscript acceptance
 └── README.md
 ```
 
@@ -56,22 +56,17 @@ Contains patient-level fold split files used in the experiments.
 
 The real DENTEX panoramic radiographs are not redistributed in this repository. The fold files are provided to document the patient-level experimental partitioning used in the study.
 
-### `metadata/`
+### `prompts/`
 
-Contains metadata files related to:
+Contains representative prompt examples used for synthetic image generation.
 
-- dataset summary
-- synthetic image generation
-- prompt information
-- technical screening
-- expert-validation decisions
-- random subset selections
-- experimental settings
+Where applicable, prompt examples are linked to the corresponding generated image filenames. These files are provided to document the zero-shot generation procedure used in the study.
 
+### `codes/`
 
-### `docs/`
+Contains the source code associated with the manuscript.
 
-Contains supplementary documentation, such as prompt examples, additional methodological notes, or repository-specific explanations.
+The code used for preprocessing, hyperparameter tuning, model training, evaluation, and result analysis will be released after manuscript acceptance.
 
 ## Experimental Design
 
@@ -118,11 +113,19 @@ Conditions:
 
 Random subset selection was repeated with three seeds.
 
+## Code Availability
+
+The source code associated with this manuscript will be released in this repository after manuscript acceptance.
+
 ## Dataset Notice
 
 The original real DENTEX panoramic radiographs are not redistributed in this repository.
 
-Users must obtain the original dataset from its official source. This repository provides only supplementary materials such as synthetic images, fold information, metadata, and results.
+Users must obtain the original dataset from its official source:
+
+S. Er, “DENTEX Challenge 2023,” Zenodo, 2023, doi: 10.5281/zenodo.7812323.
+
+This repository provides only supplementary materials, including synthetic images, fold information, prompt examples, expert-validation records, and source code to be released after manuscript acceptance.
 
 ## Synthetic Image Notice
 
