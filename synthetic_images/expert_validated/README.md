@@ -4,22 +4,18 @@ This folder documents the expert-validation step applied to the technically scre
 
 The technically screened synthetic images are stored in:
 
-- `../synthetic_images/gpt_image/`
-- `../synthetic_images/nano_banana_2/`
+- `../gpt_image/`
+- `../nano_banana_2/`
 
 This folder does not duplicate the image files. Instead, this README provides filename-level expert-validation information identifying which technically screened images were retained or rejected after expert review.
 
-## Purpose
+## Expert-Validation Overview
 
 After image generation and technical screening, an experienced dentist reviewed the retained synthetic image pool to create expert-validated subsets for a separate quality-control analysis.
 
-This expert-validation step was not applied as a prerequisite for all augmentation experiments. Instead, it was used to test whether expert filtering of commercially generated synthetic radiographs improves downstream performance compared with count-matched random subsets from the technically screened pool.
+This step was not used as a prerequisite for all augmentation experiments. It was used only to evaluate whether expert filtering provides additional downstream benefit compared with count-matched random subsets sampled from the technically screened pool.
 
-## Scope of Expert Validation
-
-The expert-validation step should not be interpreted as full clinical validation.
-
-The review was used to identify visually acceptable synthetic panoramic radiographs for the expert-validation analysis. It did not establish diagnostic correctness, clinical validity, pathology-level accuracy, or suitability for patient-level decision-making.
+The expert review should not be interpreted as full clinical validation. It was used to identify visually acceptable synthetic panoramic radiographs for the expert-validation analysis and did not establish diagnostic correctness, clinical validity, pathology-level accuracy, or suitability for patient-level decision-making.
 
 ## Expert Review Criteria
 
@@ -156,6 +152,28 @@ Total expert-rejected Nano Banana 2 samples: **6**
 ### Similarity Assessment for Nano Banana 2 Samples
 
 No duplicate images were identified by the expert. Some images showed visual similarity, but they differed by minor image-level or anatomical variations and were therefore treated as distinct samples.
+
+## Qualitative Expert Notes
+
+In addition to the retained/rejected filename lists, the expert provided qualitative observations regarding recurring visual patterns in the generated images.
+
+These notes are summarized below to document the main reasons behind expert decisions. They should be interpreted as qualitative review comments rather than formal clinical diagnoses.
+
+### Nano Banana 2
+
+Several retained Nano Banana 2 images contained small opacity-like structures in the upper anterior region. The expert noted that such findings are not frequently observed, but they may be interpreted as palatally placed amalgam restorations or radiographic artifacts. Therefore, these images were retained as visually acceptable.
+
+The rejected Nano Banana 2 samples were mainly excluded due to unrealistic anterior-region symmetry, interrupted or implausible root structures, and inconsistent third-molar anatomy. In particular, some upper impacted third molars appeared to have a form more consistent with mandibular third molars, which was considered more likely to reflect a generation artifact than a realistic anatomical variation.
+
+Overall, the expert noted that Nano Banana 2 showed some weakness in reproducing fine anterior-region details. However, compared with GPT Image, it was considered visually closer to real panoramic radiographs and better at imitating anatomical structures and maxillomandibular bone texture.
+
+### GPT Image
+
+For GPT Image, several rejected samples contained impacted teeth with plausible position or form, but the surrounding mandibular or maxillomandibular bone texture was considered artificial or unrealistic.
+
+Other rejected samples were excluded due to unexplained radiopaque regions, uncertain radiolucent artifacts, excessive blurring, artificial anterior tooth morphology, or incoherent dental structures.
+
+The expert also noted recurring artificial patterns in some GPT Image outputs, particularly in the anterior crowns and in the spongy appearance of the maxillomandibular bone. In several cases, although the impacted-tooth position and form were acceptable, the overall panoramic radiograph was not considered realistic when evaluated as a complete image.
 
 ## Use in Experiments
 
