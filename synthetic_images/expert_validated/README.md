@@ -4,8 +4,8 @@ This folder documents the expert-validation step applied to the technically scre
 
 The technically screened synthetic images are stored in:
 
-- `../gpt_image/`
-- `../nano_banana_2/`
+- `../synthetic_images/gpt_image/`
+- `../synthetic_images/nano_banana_2/`
 
 This folder does not duplicate the image files. Instead, this README provides filename-level expert-validation information identifying which technically screened images were retained or rejected after expert review.
 
