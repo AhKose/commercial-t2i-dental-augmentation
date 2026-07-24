@@ -24,7 +24,7 @@ This folder provides supplementary statistical summaries for the study.
 - The primary metric is **minority-class F1**; macro-F1 and AUC are reported as secondary measures.
 - Results correspond to the **fold-seed evaluation protocol** described in the manuscript: three predefined patient-level folds combined with five random seeds, giving 15 runs per condition and backbone.
 - Because repeated cross-validation produces correlated measurements, significance is reported with complementary approaches: a linear mixed-effects model with a random intercept per fold-seed run (the primary inferential model), effect sizes, and Bayesian posterior probabilities of superiority based on a correlated *t* posterior. Non-parametric tests and a conservative Nadeau-Bengio correction were additionally examined as sensitivity checks.
-- Given the limited dataset size and the correlated nature of repeated cross-validation, statistical power is inherently limited. Results should therefore be interpreted using effect sizes, confidence intervals, and posterior probabilities alongside *p*-values rather than a single significance threshold.
+- Given the limited dataset size and the correlated nature of repeated cross-validation, statistical power is inherently limited. Results should therefore be interpreted using effect sizes and posterior probabilities alongside p-values rather than a single significance threshold.
 
 ## Image-quality metrics
 
