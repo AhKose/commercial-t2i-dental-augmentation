@@ -12,7 +12,7 @@ The study evaluates whether commercially available general-purpose text-to-image
 
 Synthetic minority-class panoramic radiographs were generated using:
 
-- OpenAI GPT Image
+- OpenAI GPT Image 1
 - Google Gemini Nano Banana 2
 
 The generated images were added only to the training partitions. Validation and test partitions remained entirely real.
@@ -23,8 +23,8 @@ The generated images were added only to the training partitions. Validation and 
 .
 ├── synthetic_images/
 │   ├── README.md
-│   ├── gpt_image/
-│   │   └── technically screened GPT Image outputs
+│   ├── gpt_image_1/
+│   │   └── technically screened GPT Image 1 outputs
 │   ├── nano_banana_2/
 │   │   └── technically screened Nano Banana 2 outputs
 │   └── expert_validated/
@@ -121,8 +121,8 @@ Conditions:
 
 The mixed-source conditions use balanced contributions from the two generators:
 
-- Mixed-10: 5 GPT Image + 5 Nano Banana 2
-- Mixed-30: 15 GPT Image + 15 Nano Banana 2
+- Mixed-10: 5 GPT Image 1 + 5 Nano Banana 2
+- Mixed-30: 15 GPT Image 1 + 15 Nano Banana 2
 
 Random subset selection was repeated with three seeds.
 
@@ -132,7 +132,7 @@ This experiment evaluates whether expert-filtered synthetic images provide measu
 
 Conditions:
 
-- GPT Image: expert-filtered N = 15 vs. three random N = 15 subsets
+- GPT Image 1: expert-filtered N = 15 vs. three random N = 15 subsets
 - Nano Banana 2: expert-filtered N = 29 vs. three random N = 29 subsets
 
 Random subsets were sampled from the corresponding technically screened synthetic pools using three random seeds.
