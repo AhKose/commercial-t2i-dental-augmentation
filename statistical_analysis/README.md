@@ -4,11 +4,11 @@ This folder provides supplementary statistical summaries for the study.
 
 ## Files
 
-- **`primary_results_table_iv.csv`**
-  Primary experiment results (Table IV): mean and standard deviation of minority-class F1, macro-F1, and AUC for every condition and backbone, computed over the 15 fold-seed runs (3 patient-level folds × 5 random seeds).
+- **`primary_results.csv`**
+  Primary experiment results: mean and standard deviation of minority-class F1, macro-F1, and AUC for every condition and backbone, computed over the 15 fold-seed runs (3 patient-level folds × 5 random seeds).
 
-- **`primary_planned_contrasts_table_vii.csv`**
-  Planned linear mixed-effects (LMM) and Bayesian comparisons for minority-class F1 reported in Table VII. Each contrast is reported separately for DenseNet-121, Swin-Tiny, and the combined (both-backbone) model, together with the mean difference, Cohen's *d*, LMM *p*, and the Bayesian posterior probability of superiority.
+- **`planned_contrasts.csv`**
+  Planned linear mixed-effects (LMM) and Bayesian comparisons for minority-class F1. Each contrast is reported separately for DenseNet-121, Swin-Tiny, and the combined (both-backbone) model, together with the mean difference, Cohen's *d*, LMM *p*, and the Bayesian posterior probability of superiority.
 
 - **`source_budget_pairwise_summaries_rq2.csv`**
   Additional pairwise summaries for the matched-budget source and budget analyses (RQ2), including source comparisons, the N=10 versus N=30 budget effect, and mixed-source versus single-source contrasts.
@@ -28,4 +28,4 @@ This folder provides supplementary statistical summaries for the study.
 
 ## Note on image-quality metrics
 
-FID is **not** reported. With 35 synthetic images per generator, the feature covariance matrix required by FID is rank-deficient, which makes the estimate unstable. KID is reported instead because it provides an unbiased estimator at small sample sizes. KID is given for two feature extractors, the standard ImageNet-InceptionV3 backbone and a chest-radiograph-pretrained DenseNet, because these metrics are sensitive to the choice of feature space. All image-quality metrics are exploratory and should be interpreted comparatively rather than as absolute quality scores.
+FID is **not** reported. With 35 synthetic images per generator, the feature covariance matrix required by FID is rank-deficient, which makes the estimate unstable. KID is reported instead because it provides an unbiased estimator at small sample sizes. KID is computed with a chest-radiograph-pretrained DenseNet feature extractor rather than a generic natural-image backbone, because feature spaces trained on natural images are not representative of radiographic content. All image-quality metrics are exploratory and should be interpreted comparatively rather than as absolute quality scores.
