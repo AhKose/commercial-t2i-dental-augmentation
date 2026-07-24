@@ -26,6 +26,10 @@ This folder provides supplementary statistical summaries for the study.
 - Because repeated cross-validation produces correlated measurements, significance is reported with complementary approaches: a linear mixed-effects model with a random intercept per fold-seed run (the primary inferential model), effect sizes, and Bayesian posterior probabilities of superiority based on a correlated *t* posterior. Non-parametric tests and a conservative Nadeau-Bengio correction were additionally examined as sensitivity checks.
 - Given the limited dataset size and the correlated nature of repeated cross-validation, statistical power is inherently limited. Results should therefore be interpreted using effect sizes, confidence intervals, and posterior probabilities alongside *p*-values rather than a single significance threshold.
 
-## Note on image-quality metrics
+## Image-quality metrics
 
-FID is **not** reported. With 35 synthetic images per generator, the feature covariance matrix required by FID is rank-deficient, which makes the estimate unstable. KID is reported instead because it provides an unbiased estimator at small sample sizes. KID is computed with a chest-radiograph-pretrained DenseNet feature extractor rather than a generic natural-image backbone, because feature spaces trained on natural images are not representative of radiographic content. All image-quality metrics are exploratory and should be interpreted comparatively rather than as absolute quality scores.
+`auxiliary_kid_lpips_metrics.csv` reports the Kernel Inception Distance (KID) between each synthetic image pool and the real impacted-class images, together with the LPIPS diversity within each pool.
+
+KID is used because it remains unbiased at the small sample sizes involved here, and its embeddings are taken from a publicly available DenseNet-121 pretrained on public chest-radiograph collections (`torchxrayvision`). This embedding model is separate from the classifiers evaluated in the study.
+
+These metrics are exploratory and are intended for comparison between image pools rather than as absolute quality scores.
