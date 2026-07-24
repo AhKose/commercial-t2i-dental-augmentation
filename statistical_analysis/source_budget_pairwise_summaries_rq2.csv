@@ -1,0 +1,58 @@
+analysis,contrast,backbone,n_pairs,mean_difference,cohens_d,lmm_p,bayesian_P_superiority,metric
+Source and budget pairwise,gpt10 vs nano10,DenseNet-121,9,0.0062,0.18,0.598,0.617,minority-class F1
+Source and budget pairwise,gpt10 vs nano10,Swin-Tiny,9,-0.0136,-0.36,0.285,0.275,minority-class F1
+Source and budget pairwise,gpt10 vs nano10,Combined,18,-0.0037,-0.1,0.671,0.425,minority-class F1
+Source and budget pairwise,gpt10 vs mixed10,DenseNet-121,9,-0.0106,-0.76,0.023,0.11,minority-class F1
+Source and budget pairwise,gpt10 vs mixed10,Swin-Tiny,9,-0.0209,-1.09,0.001,0.047,minority-class F1
+Source and budget pairwise,gpt10 vs mixed10,Combined,18,-0.0157,-0.92,0.0,0.048,minority-class F1
+Source and budget pairwise,nano10 vs mixed10,DenseNet-121,9,-0.0168,-0.57,0.089,0.175,minority-class F1
+Source and budget pairwise,nano10 vs mixed10,Swin-Tiny,9,-0.0073,-0.19,0.566,0.373,minority-class F1
+Source and budget pairwise,nano10 vs mixed10,Combined,18,-0.012,-0.36,0.128,0.25,minority-class F1
+Source and budget pairwise,gpt30 vs nano30,DenseNet-121,9,-0.0086,-0.22,0.505,0.354,minority-class F1
+Source and budget pairwise,gpt30 vs nano30,Swin-Tiny,9,-0.0037,-0.1,0.759,0.431,minority-class F1
+Source and budget pairwise,gpt30 vs nano30,Combined,18,-0.0061,-0.17,0.473,0.374,minority-class F1
+Source and budget pairwise,gpt30 vs mixed30,DenseNet-121,9,-0.0004,-0.01,0.967,0.491,minority-class F1
+Source and budget pairwise,gpt30 vs mixed30,Swin-Tiny,9,-0.0107,-0.26,0.444,0.333,minority-class F1
+Source and budget pairwise,gpt30 vs mixed30,Combined,18,-0.0055,-0.16,0.498,0.381,minority-class F1
+Source and budget pairwise,nano30 vs mixed30,DenseNet-121,9,0.0083,0.23,0.483,0.654,minority-class F1
+Source and budget pairwise,nano30 vs mixed30,Swin-Tiny,9,-0.007,-0.17,0.608,0.386,minority-class F1
+Source and budget pairwise,nano30 vs mixed30,Combined,18,0.0006,0.02,0.943,0.513,minority-class F1
+Source and budget pairwise,gpt10 vs gpt30,DenseNet-121,9,-0.0166,-0.46,0.166,0.221,minority-class F1
+Source and budget pairwise,gpt10 vs gpt30,Swin-Tiny,9,0.0054,0.19,0.567,0.627,minority-class F1
+Source and budget pairwise,gpt10 vs gpt30,Combined,18,-0.0056,-0.17,0.479,0.376,minority-class F1
+Source and budget pairwise,nano10 vs nano30,DenseNet-121,9,-0.0315,-1.08,0.001,0.048,minority-class F1
+Source and budget pairwise,nano10 vs nano30,Swin-Tiny,9,0.0154,0.43,0.197,0.763,minority-class F1
+Source and budget pairwise,nano10 vs nano30,Combined,18,-0.008,-0.2,0.393,0.352,minority-class F1
+Source and budget pairwise,mixed10 vs mixed30,DenseNet-121,9,-0.0064,-0.2,0.554,0.369,minority-class F1
+Source and budget pairwise,mixed10 vs mixed30,Swin-Tiny,9,0.0157,0.55,0.102,0.816,minority-class F1
+Source and budget pairwise,mixed10 vs mixed30,Combined,18,0.0046,0.15,0.538,0.608,minority-class F1
+Budget effect (N=10 vs N=30),GPT: 30 vs 10,DenseNet-121,9,0.0166,0.46,0.166,0.779,minority-class F1
+Budget effect (N=10 vs N=30),GPT: 30 vs 10,Swin-Tiny,9,-0.0054,-0.19,0.567,0.373,minority-class F1
+Budget effect (N=10 vs N=30),GPT: 30 vs 10,Combined,18,0.0056,0.17,0.479,0.624,minority-class F1
+Budget effect (N=10 vs N=30),Nano: 30 vs 10,DenseNet-121,9,0.0315,1.08,0.001,0.952,minority-class F1
+Budget effect (N=10 vs N=30),Nano: 30 vs 10,Swin-Tiny,9,-0.0154,-0.43,0.197,0.237,minority-class F1
+Budget effect (N=10 vs N=30),Nano: 30 vs 10,Combined,18,0.008,0.2,0.393,0.648,minority-class F1
+Budget effect (N=10 vs N=30),Mixed: 30 vs 10,DenseNet-121,9,0.0064,0.2,0.554,0.631,minority-class F1
+Budget effect (N=10 vs N=30),Mixed: 30 vs 10,Swin-Tiny,9,-0.0157,-0.55,0.102,0.184,minority-class F1
+Budget effect (N=10 vs N=30),Mixed: 30 vs 10,Combined,18,-0.0046,-0.15,0.538,0.392,minority-class F1
+Budget effect (N=10 vs N=30),ALL sources: 30 vs 10,DenseNet-121,9,0.0182,0.79,0.004,0.898,minority-class F1
+Budget effect (N=10 vs N=30),ALL sources: 30 vs 10,Swin-Tiny,9,-0.0122,-0.57,0.082,0.172,minority-class F1
+Budget effect (N=10 vs N=30),ALL sources: 30 vs 10,Combined,18,0.003,0.11,0.546,0.584,minority-class F1
+Mixed vs single-source,N10: Mixed vs GPT,DenseNet-121,9,0.0106,0.76,0.023,0.89,minority-class F1
+Mixed vs single-source,N10: Mixed vs GPT,Swin-Tiny,9,0.0209,1.09,0.001,0.953,minority-class F1
+Mixed vs single-source,N10: Mixed vs GPT,Combined,18,0.0157,0.92,0.0,0.952,minority-class F1
+Mixed vs single-source,N10: Mixed vs Nano,DenseNet-121,9,0.0168,0.57,0.089,0.825,minority-class F1
+Mixed vs single-source,N10: Mixed vs Nano,Swin-Tiny,9,0.0073,0.19,0.566,0.627,minority-class F1
+Mixed vs single-source,N10: Mixed vs Nano,Combined,18,0.012,0.36,0.128,0.75,minority-class F1
+Mixed vs single-source,N10: Mixed vs single(pooled),DenseNet-121,9,0.0137,0.91,0.083,0.926,minority-class F1
+Mixed vs single-source,N10: Mixed vs single(pooled),Swin-Tiny,9,0.0141,0.6,0.146,0.839,minority-class F1
+Mixed vs single-source,N10: Mixed vs single(pooled),Combined,18,0.0139,0.73,0.024,0.91,minority-class F1
+Mixed vs single-source,N30: Mixed vs GPT,DenseNet-121,9,0.0004,0.01,0.967,0.509,minority-class F1
+Mixed vs single-source,N30: Mixed vs GPT,Swin-Tiny,9,0.0107,0.26,0.444,0.667,minority-class F1
+Mixed vs single-source,N30: Mixed vs GPT,Combined,18,0.0055,0.16,0.498,0.619,minority-class F1
+Mixed vs single-source,N30: Mixed vs Nano,DenseNet-121,9,-0.0083,-0.23,0.483,0.346,minority-class F1
+Mixed vs single-source,N30: Mixed vs Nano,Swin-Tiny,9,0.007,0.17,0.608,0.614,minority-class F1
+Mixed vs single-source,N30: Mixed vs Nano,Combined,18,-0.0006,-0.02,0.943,0.487,minority-class F1
+Mixed vs single-source,N30: Mixed vs single(pooled),DenseNet-121,9,-0.004,-0.16,0.684,0.393,minority-class F1
+Mixed vs single-source,N30: Mixed vs single(pooled),Swin-Tiny,9,0.0088,0.24,0.427,0.655,minority-class F1
+Mixed vs single-source,N30: Mixed vs single(pooled),Combined,18,0.0024,0.08,0.74,0.559,minority-class F1
