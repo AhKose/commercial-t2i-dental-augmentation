@@ -4,7 +4,7 @@ Supplementary repository for the study:
 
 **Commercial Text-to-Image Systems for Synthetic Augmentation of Impacted Teeth Classification in Class-Imbalanced Panoramic Dental Radiographs**
 
-This repository contains supplementary materials used to support the transparency and reproducibility of the study, including synthetic images, patient-level fold partitions, representative prompt examples, expert-validation records, and source code to be released after manuscript acceptance.
+This repository contains supplementary materials used to support the transparency and reproducibility of the study, including synthetic images, patient-level fold partitions, representative prompt examples, expert-validation records, supplementary statistical summaries, and source code to be released after manuscript acceptance.
 
 ## Overview
 
@@ -36,6 +36,8 @@ The generated images were added only to the training partitions. Validation and 
 │   └── impacted_partition_3.json
 ├── prompts/
 │   └── README.md
+├── statistical_analysis/
+│   └── supplementary statistical summaries
 ├── code/
 │   └── README.md
 └── README.md
@@ -67,6 +69,12 @@ Contains representative English prompt examples documenting the short class-cond
 
 The prompt examples are representative rather than exhaustive. They are provided to improve transparency regarding the generation procedure.
 
+### `statistical_analysis/`
+
+Contains supplementary statistical summaries for the study, including the primary fold-seed results, planned mixed-effects and Bayesian contrasts, pairwise summaries for the source, budget, and expert-validation analyses, and auxiliary image-quality metrics.
+
+See `statistical_analysis/README.md` for a description of each file.
+
 ### `code/`
 
 Contains the source code associated with the manuscript.
@@ -75,17 +83,28 @@ The source code associated with this study will be made available in this reposi
 
 ## Experimental Design
 
-### 1. Primary Augmentation-Utility Experiment
+### 1. Primary Augmentation-Utility and Imbalance-Control Experiment
 
-This experiment evaluates whether the largest practically available synthetic image sets improve classification performance relative to the no-augmentation baseline.
+This experiment evaluates whether the largest practically available commercial T2I augmentation settings improve classification performance relative to the no-synthetic WRS baseline and additional non-synthetic imbalance-handling controls.
 
 Conditions:
 
+- WRS baseline
+- Class-weighted BCE
+- Focal loss
 - GPT-35
 - Nano-35
 - Mixed-70
+- ROS-35 and ROS-70
+- RUS-35 and RUS-70
 
 The Mixed-70 condition combines 35 GPT Image samples and 35 Nano Banana 2 samples. It should be interpreted as a pooled higher-budget condition rather than a strictly matched source-comparison condition.
+
+The ROS and RUS conditions are count- and ratio-matched resampling controls. ROS-35 and ROS-70 add the same number of duplicated real minority images as the corresponding synthetic conditions, while RUS-35 and RUS-70 reduce the majority class so that the resulting class ratio matches the corresponding synthetic condition. These controls isolate the contribution of synthetic image content from a change in sample count or class ratio alone.
+
+All conditions shared an identical preprocessing and train-time augmentation pipeline. Conditions differed only in the sampler, the loss function, and the added or removed training data.
+
+The primary results were evaluated using three predefined patient-level folds and five random seeds, resulting in 15 fold-seed runs per backbone.
 
 ### 2. Matched-Budget Source Comparison
 
@@ -128,9 +147,9 @@ The original real DENTEX panoramic radiographs are not redistributed in this rep
 
 Users must obtain the original dataset from its official source:
 
-S. Er, “DENTEX Challenge 2023,” Zenodo, 2023, doi: 10.5281/zenodo.7812323.
+S. Er, "DENTEX Challenge 2023," Zenodo, 2023, doi: 10.5281/zenodo.7812323.
 
-This repository provides supplementary materials, including synthetic images, patient-level fold partition files, representative prompt examples, expert-validation records, and source code to be released after manuscript acceptance.
+This repository provides supplementary materials, including synthetic images, patient-level fold partition files, representative prompt examples, expert-validation records, supplementary statistical summaries, and source code to be released after manuscript acceptance.
 
 ## Synthetic Image Notice
 
@@ -143,3 +162,4 @@ They should not be used for clinical decision-making, diagnosis, or treatment pl
 ## Citation
 
 Citation information will be added after publication.
+
