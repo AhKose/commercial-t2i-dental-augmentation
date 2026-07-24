@@ -23,7 +23,7 @@ The generated images were added only to the training partitions. Validation and 
 .
 ├── synthetic_images/
 │   ├── README.md
-│   ├── gpt_image_1/
+│   ├── gpt_image/
 │   │   └── technically screened GPT Image 1 outputs
 │   ├── nano_banana_2/
 │   │   └── technically screened Nano Banana 2 outputs
