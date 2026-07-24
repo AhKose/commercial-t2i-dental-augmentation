@@ -2,7 +2,7 @@
 
 This folder contains the technically screened synthetic panoramic radiographs generated using:
 
-- `gpt_image/`
+- `gpt_image_1/`
 - `nano_banana_2/`
 
 The images were generated using short class-conditional zero-shot prompts targeting the minority class, namely impacted teeth.
