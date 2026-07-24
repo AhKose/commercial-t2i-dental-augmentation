@@ -1,0 +1,4 @@
+source,n_images,kid_imagenet_inception,kid_imagenet_ci95,kid_cxr_densenet_domain,kid_cxr_ci95,lpips_diversity,lpips_diversity_sd,note
+GPT-35,35,0.08148,"[0.07009, 0.11611]",0.00357,"[0.00273, 0.00577]",0.3638,0.094,FID omitted: with n=35 the feature covariance is singular; KID (unbiased at small n) is reported instead.
+Nano-35,35,0.09761,"[0.08342, 0.12503]",0.00713,"[0.00544, 0.01003]",0.2229,0.0909,FID omitted: with n=35 the feature covariance is singular; KID (unbiased at small n) is reported instead.
+Real-impacted,254,,,,,0.3808,0.0662,FID omitted: with n=35 the feature covariance is singular; KID (unbiased at small n) is reported instead.
