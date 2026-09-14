@@ -1,0 +1,17 @@
+{
+  "arch": "swin_tiny",
+  "outer_fold": 1,
+  "best_mean_inner_f1_macro": 0.7179008138132077,
+  "trial": 22,
+  "params": {
+    "lr_backbone": 2.8012886520147875e-05,
+    "lr_head": 1.628376181739489e-05,
+    "weight_decay": 0.0008641413719063969,
+    "dropout": 0.5346413402248013,
+    "label_smooth": 0.029137029267635544
+  },
+  "per_inner": [
+    0.6659,
+    0.7699
+  ]
+}

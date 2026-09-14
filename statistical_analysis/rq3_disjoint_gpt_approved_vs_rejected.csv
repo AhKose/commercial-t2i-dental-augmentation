@@ -1,0 +1,10 @@
+metric,contrast,n,mean_a,mean_b,delta,ci_lo,ci_hi,lmm_p,paired_t_p
+F1_minor,GPT-approved(15) vs GPT-rejected(15),15,0.6079,0.6167,-0.0088,-0.0252,0.0077,0.2969,0.3306
+F1_minor,GPT-approved(15) vs sampler,15,0.6079,0.6011,0.0068,-0.0172,0.0308,0.5789,0.6003
+F1_minor,GPT-rejected(15) vs sampler,15,0.6167,0.6011,0.0156,-0.0025,0.0337,0.0913,0.1251
+F1_macro,GPT-approved(15) vs GPT-rejected(15),15,0.6988,0.6989,-0.0001,-0.0091,0.009,0.9853,0.986
+F1_macro,GPT-approved(15) vs sampler,15,0.6988,0.6983,0.0005,-0.0142,0.0152,0.9477,0.9504
+F1_macro,GPT-rejected(15) vs sampler,15,0.6989,0.6983,0.0006,-0.0096,0.0107,0.9115,0.916
+PR-AUC,GPT-approved(15) vs GPT-rejected(15),15,0.6456,0.6508,-0.0052,-0.0135,0.0031,0.2179,0.2537
+PR-AUC,GPT-approved(15) vs sampler,15,0.6456,0.6575,-0.0119,-0.0348,0.0109,0.3056,0.3391
+PR-AUC,GPT-rejected(15) vs sampler,15,0.6508,0.6575,-0.0067,-0.0287,0.0153,0.5498,0.5726

@@ -1,0 +1,17 @@
+{
+  "arch": "densenet121",
+  "outer_fold": 1,
+  "best_mean_inner_f1_macro": 0.68796310875511,
+  "trial": 22,
+  "params": {
+    "lr_backbone": 3.931797502469077e-05,
+    "lr_head": 0.00014136546149842036,
+    "weight_decay": 9.192474736227376e-05,
+    "dropout": 0.5124637360560931,
+    "label_smooth": 0.131094078977634
+  },
+  "per_inner": [
+    0.6939,
+    0.6821
+  ]
+}

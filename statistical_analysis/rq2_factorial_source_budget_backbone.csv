@@ -1,0 +1,8 @@
+test,lr_stat,df,p_value
+3-way interaction: source x budget x backbone,0.963,2,0.6178
+all 2-way interactions (joint),4.812,5,0.4392
+source x budget interaction,0.08,2,0.9606
+budget x backbone interaction,1.484,2,0.4761
+source main effect,0.028,1,0.868
+budget main effect,-inf,2,1.0
+backbone (arch) main effect,0.176,1,0.6753
