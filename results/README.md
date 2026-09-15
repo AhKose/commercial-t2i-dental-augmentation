@@ -29,4 +29,4 @@ Inferential/statistical testing of these results (LMM contrasts, factorial analy
   DenseNet-121 minority-F1, macro-F1, and PR-AUC (mean, SD) at the primary 256x256 setting (n=15) and at 384x768 with true aspect-preserving letterbox padding (n=9), for WRS, GPT-10, GPT-35, ROS-70, and Mixed-70.
 
 - **`memorization_audit_gpt.csv`, `memorization_audit_nano.csv`, `memorization_audit_real_pairs.csv`**
-  Leakage/memorization audit: real-image near-duplicate screening (perceptual hash and embedding cosine similarity) and synthetic-to-real nearest-neighbor cosine similarity, LPIPS distance, and perceptual-hash distance, computed per outer-fold train/val/test partition.
+  Leakage/memorization audit: real-image near-duplicate screening (perceptual hash and embedding cosine similarity) and synthetic-to-real nearest-neighbor cosine similarity, LPIPS distance, and perceptual-hash distance, computed per outer-fold train/val/test partition. See `memorization_audit_methodology.md` for the full methodology and the verified reference numbers (real-real cosine p95 threshold, near-duplicate check, train-vs-test comparison) behind these files.
