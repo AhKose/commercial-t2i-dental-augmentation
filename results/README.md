@@ -10,7 +10,7 @@ Inferential/statistical testing of these results (LMM contrasts, factorial analy
   RQ1: primary augmentation-utility and imbalance-control experiment. Minority-class F1 (mean, SD, 95% CI), macro-F1, PR-AUC, ROC-AUC, precision/recall/specificity, and the baseline-relative delta for every condition (WRS baseline, class-weighted BCE, focal loss, GPT-35, Nano-35, Mixed-70, ROS-35/70, RUS-35/70; the latter four evaluated without WRS, under uniform sampling) and both architectures.
 
 - **`source_budget_rq2.csv`**
-  RQ2: generator source and augmentation-budget comparison. Same metrics as above for GPT/Nano at N=10/30/35 and the pooled Mixed-source conditions at N=20/60/70 (mixed budgets are twice the corresponding per-generator budget, not equal-total-count comparisons).
+  RQ2: generator source and augmentation-budget comparison. Minority-F1, macro-F1, and PR-AUC (each with mean, SD, and 95% CI), ROC-AUC, precision/recall/specificity, and the baseline-relative delta and paired-t p-value for every metric, for GPT/Nano at N=10/30/35 and the pooled Mixed-source conditions at N=20/60/70 (mixed budgets are twice the corresponding per-generator budget, not equal-total-count comparisons).
 
 - **`expert_filtered_rq3.csv`**
   RQ3: downstream utility of expert-filtered augmentation. WRS baseline vs. the expert-filtered GPT Image 1 (N=15) and Nano Banana 2 (N=29) subsets, both architectures.
