@@ -31,6 +31,9 @@ All results are for 3 outer folds x 5 training seeds = 15 fold-seed evaluations 
 - **`patient_level_bootstrap.csv`**
   Patient-level paired bootstrap (B=5,000 resamples of the 705 patients, seed-averaged probabilities per patient, fixed 0.5 decision threshold, no per-condition threshold optimization). Reports minority-F1, macro-F1, and PR-AUC with bootstrap 95% CIs, and baseline-relative deltas with bootstrap two-sided p-values, for every condition and both architectures. This directly addresses the pseudoreplication concern that the five training seeds within an outer fold share the same held-out test patients.
 
+- **`outer_fold_level_aggregation.csv`**
+  Outer-fold-level aggregation: the five training-seed values within each outer fold are averaged into a single fold-level value per condition, giving 3 genuinely independent-patient observations per architecture (6 combined) instead of 15 pseudo-replicated fold-seed units. Paired-t comparison against WRS for GPT-35, Nano-35, Mixed-70, and GPT-10, all three primary metrics. None of these contrasts, including GPT-10, are significant at the fold level, consistent with the patient-level bootstrap above.
+
 - **`resolution_sensitivity_padaspect_contrasts.csv`**
   LMM contrasts vs. the WRS baseline under the 384x768 true aspect-preserving preprocessing (DenseNet-121).
 
