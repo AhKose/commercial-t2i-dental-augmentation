@@ -1,0 +1,13 @@
+term,coef,ci_lo,ci_hi,p_value
+Intercept,0.02963,0.00593,0.05333,0.01425
+C(source)[T.Nano],-0.01303,-0.03942,0.01336,0.33313
+C(budget)[T.30],-0.01187,-0.03826,0.01453,0.37821
+C(budget)[T.35],-0.02276,-0.04915,0.00363,0.09099
+C(arch)[T.swin_tiny],-0.02097,-0.05448,0.01255,0.22014
+C(source)[T.Nano]:C(budget)[T.30],-0.0032,-0.04053,0.03412,0.86641
+C(source)[T.Nano]:C(budget)[T.35],0.00953,-0.02779,0.04686,0.61662
+C(source)[T.Nano]:C(arch)[T.swin_tiny],0.01974,-0.01758,0.05707,0.29983
+C(budget)[T.30]:C(arch)[T.swin_tiny],-0.00409,-0.04141,0.03324,0.83015
+C(budget)[T.35]:C(arch)[T.swin_tiny],0.02205,-0.01527,0.05938,0.24689
+C(source)[T.Nano]:C(budget)[T.30]:C(arch)[T.swin_tiny],0.01359,-0.03919,0.06638,0.6138
+C(source)[T.Nano]:C(budget)[T.35]:C(arch)[T.swin_tiny],-0.01288,-0.06566,0.03991,0.63251

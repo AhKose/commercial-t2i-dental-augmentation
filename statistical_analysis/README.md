@@ -12,13 +12,19 @@ All results are for 3 outer folds x 5 training seeds = 15 fold-seed evaluations 
 - **`rq3_disjoint_gpt_approved_vs_rejected.csv`**
   RQ3 secondary/disjoint analysis: the expert-approved GPT Image 1 subset (N=15) vs. a count-matched, fully disjoint expert-rejected subset (N=15) sampled from the 20 technically screened images the expert did not retain, plus each subset vs. the WRS baseline. Reported for minority-F1, macro-F1, and PR-AUC (DenseNet-121; LMM contrast with 95% CI and paired-t sensitivity check).
 
+- **`single_source_budget_contrasts.csv`**
+  Condition-specific exploratory contrasts vs. WRS for each single-source budget condition (GPT-10/30/35, Nano-10/30/35) individually, minority-F1, DenseNet-121/Swin-Tiny/combined. Each row reports the LMM delta and 95% CI, the raw LMM p-value, a Holm-adjusted p-value, and the patient-level bootstrap delta/CI/p as an independence-robust cross-check. GPT-10 is the one condition with a raw and Holm-adjusted p below .05 (DenseNet-121 only); it is reported in the manuscript as a non-replicating exploratory finding, since it is not significant in Swin-Tiny and does not hold up under the patient-level bootstrap. Holm correction for GPT-10/GPT-30/Nano-10/Nano-30 is applied within that 4-condition exploratory family; GPT-35/Nano-35 are the pre-specified primary contrasts, already Holm-corrected within their own 3-condition family (see Table VII / `lmm_contrasts_f1minor.csv` block A). No pooled/aggregate baseline is used in this file; every row is a single named condition vs. WRS.
+
 ## RQ2 factorial analysis
 
 - **`rq2_factorial_source_budget_backbone.csv`**
   Controlled source x budget x backbone factorial analysis (single-source GPT/Nano conditions at N=10/30/35 only; mixed-source excluded because its total budget is not matched to the single-source levels). Likelihood-ratio tests between nested mixed-effects models for the 3-way interaction, each 2-way interaction, and each main effect.
 
+- **`rq2_factorial_full_model_coefficients.csv`**
+  Coefficients of the full model `delta ~ source * budget * arch` (every main effect and interaction term), with 95% CI and p-values.
+
 - **`rq2_factorial_additive_model_coefficients.csv`**
-  Coefficients of the additive model `delta ~ source + budget + backbone` (the reduced model retained by the factorial analysis above), with 95% CI and p-values for each term.
+  Coefficients of the additive model `delta ~ source + budget + backbone` (the reduced model retained by the factorial analysis above, since no interaction term was significant), with 95% CI and p-values for each term.
 
 ## Sensitivity analyses
 
