@@ -4,7 +4,7 @@ Supplementary repository for the study:
 
 **Text-to-Image–Based Synthetic Data Augmentation Using Commercial Models for Addressing Class Imbalance in Impacted Teeth Classification**
 
-This repository contains supplementary materials used to support the transparency and reproducibility of the study, including synthetic images, patient-level nested fold partitions, representative prompt examples, expert-validation records, a complete set of statistical and sensitivity-analysis outputs, and source code to be released after manuscript acceptance.
+This repository contains supplementary materials used to support the transparency and reproducibility of the study, including synthetic images, patient-level nested fold partitions, representative prompt examples, expert-validation records, results tables, statistical analyses, and source code to be released after manuscript acceptance.
 
 ## Overview
 
@@ -17,7 +17,7 @@ Synthetic minority-class panoramic radiographs were generated using:
 
 via short class-conditional zero-shot prompting, without medical-domain fine-tuning or task-specific adaptation. The generated images were added only to the training partitions; validation and test partitions remained entirely real.
 
-Under a nested patient-level cross-validation protocol with repeated training seeds, the primary commercial T2I augmentation conditions did **not** demonstrate a consistent or statistically supported advantage over the no-synthetic WeightedRandomSampler (WRS) baseline. Generator source, augmentation budget, and expert filtering produced configuration-dependent numerical differences without a uniformly superior setting. See the manuscript and `statistical_analysis/` for the complete results.
+Under a nested patient-level cross-validation protocol with repeated training seeds, the primary commercial T2I augmentation conditions did **not** demonstrate a consistent or statistically supported advantage over the no-synthetic WeightedRandomSampler (WRS) baseline. Generator source, augmentation budget, and expert filtering produced configuration-dependent numerical differences without a uniformly superior setting. See the manuscript, `results/`, and `statistical_analysis/` for the complete results.
 
 ## Repository Structure
 
@@ -34,9 +34,12 @@ Under a nested patient-level cross-validation protocol with repeated training se
 │   └── hp_search_{densenet121,swin_tiny}_outer{0,1,2}.json   selected hyperparameters
 ├── prompts/
 │   └── README.md             representative zero-shot prompt examples
+├── results/
+│   ├── README.md
+│   └── ...                   measured outcome data (see below)
 ├── statistical_analysis/
 │   ├── README.md
-│   └── ...                   full statistical/sensitivity result tables (see below)
+│   └── ...                   inferential/statistical analyses (see below)
 ├── figures/
 │   ├── README.md
 │   └── figure4_forest_primary_lmm_contrasts.{png,pdf}
@@ -69,9 +72,13 @@ The real DENTEX panoramic radiographs are not redistributed in this repository.
 
 Contains representative English prompt examples documenting the short class-conditional zero-shot prompting workflow used for synthetic image generation.
 
+### `results/`
+
+Contains the measured outcome data: the RQ1/RQ2/RQ3 result tables, secondary metrics and confusion-matrix counts, calibration, the 384×768 aspect-preserving resolution sensitivity, and the leakage/memorization audit. See `results/README.md` for a description of each file.
+
 ### `statistical_analysis/`
 
-Contains the complete supplementary statistical and sensitivity-analysis outputs: the RQ1/RQ2/RQ3 result tables, LMM contrasts (minority-F1, macro-F1, PR-AUC), the RQ2 source × budget × backbone factorial analysis, the RQ3 disjoint expert-approved-vs-rejected comparison, patient-level bootstrap results, resolution/preprocessing sensitivity (256×256 vs. 384×768 direct-resize vs. 384×768 true aspect-preserving), calibration, and the leakage/memorization audit. See `statistical_analysis/README.md` for a description of each file.
+Contains the inferential statistical analyses applied to the results above: LMM contrasts (minority-F1, macro-F1, PR-AUC), the RQ2 source × budget × backbone factorial analysis, the RQ3 disjoint expert-approved-vs-rejected comparison, the patient-level bootstrap, and the resolution-sensitivity LMM contrasts. See `statistical_analysis/README.md` for a description of each file.
 
 ### `figures/`
 
@@ -104,11 +111,11 @@ All three experiments use the same 3 outer folds × 5 training seeds = 15 fold-s
 ### 4. Robustness and Sensitivity Analyses
 
 - **Patient-level bootstrap** (B=5,000, fixed 0.5 decision threshold) addressing the fact that the five training seeds within an outer fold share the same held-out test patients.
-- **Resolution/preprocessing sensitivity** (DenseNet-121, 384×768) under both direct resizing and true aspect-preserving letterbox padding, including a direct paired comparison between the two resizing strategies.
+- **Resolution/preprocessing sensitivity** (DenseNet-121, 384×768, true aspect-preserving letterbox padding).
 - **Leakage and memorization audit**: real-image near-duplicate screening and synthetic-to-real nearest-neighbor similarity, per outer-fold train/val/test partition.
 - **Calibration**: Brier score and reliability tables.
 
-See `statistical_analysis/README.md` for the complete list of result files.
+See `results/README.md` and `statistical_analysis/README.md` for the complete list of result files.
 
 ## Code Availability
 
