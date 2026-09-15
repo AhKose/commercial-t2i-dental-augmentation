@@ -43,6 +43,9 @@ All results are for **3 outer folds × 5 training seeds = 15 fold-seed evaluatio
 - **`resolution_sensitivity_squash_vs_padaspect.csv`**
   Direct paired comparison between the two 384×768 resizing strategies (aspect-preserving − direct resize) for each condition, at the same seeds/folds. This isolates whether a condition's apparent resolution-sensitivity result depended on the resizing method itself.
 
+- **`secondary_metrics_confusion_matrix.csv`**
+  Accuracy and ROC-AUC (mean, SD) and confusion-matrix counts (mean TP/FP/TN/FN, validation-optimal threshold) for every condition reported in the RQ1/RQ2/RQ3 tables, both architectures, across the 15 fold-seed runs.
+
 - **`calibration_brier.csv`, `calibration_reliability.csv`**
   Brier score and 10-bin reliability tables (seed-averaged per-patient probabilities), both architectures, all primary/source-budget/expert-filtered conditions.
 
