@@ -37,6 +37,9 @@ All results are for 3 outer folds x 5 training seeds = 15 fold-seed evaluations 
 - **`resolution_sensitivity_padaspect_contrasts.csv`**
   LMM contrasts vs. the WRS baseline under the 384x768 true aspect-preserving preprocessing (DenseNet-121).
 
+- **`severe_imbalance_lmm_contrasts.csv`**
+  Supplementary severe class-imbalance experiment (DenseNet-121; see `../results/README.md`). For each subsampled training ratio (5:1, 10:1) and each metric (minority-F1, macro-F1, PR-AUC), one joint LMM `metric ~ condition + (1 | outer_fold x seed)` with GPT-35, Nano-35, and ROS-35 contrasted against WRS: coefficient, 95% CI, raw p-value, and Holm-adjusted p-value within the three-contrast family. The natural-ratio contrasts are those of `lmm_contrasts_f1minor.csv` and are not refitted here.
+
 ## Notes on the statistical protocol
 
 - The primary outcome is minority-class F1; macro-F1 and PR-AUC are reported as complementary outcomes using the same comparison structure.

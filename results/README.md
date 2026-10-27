@@ -25,6 +25,9 @@ Inferential/statistical testing of these results (LMM contrasts, factorial analy
 
 ## Sensitivity and audit results
 
+- **`severe_imbalance_summary.csv`**
+  Supplementary severe class-imbalance experiment (DenseNet-121). Within each outer-fold training partition, the real impacted class was subsampled to approximately 5:1 and 10:1 non-impacted:impacted (51 and 26 real impacted patients, from 143–144), while the validation and outer-test partitions were left unchanged at the natural ratio. The subsample is fixed per outer fold × seed and shared by all conditions, and the 10:1 subset is nested in the 5:1 subset. WRS, GPT-35, Nano-35, and ROS-35 (uniform sampling, as in the primary analysis) were re-trained with the same fold-specific hyperparameters and protocol. Minority-F1, macro-F1, and PR-AUC (mean, SD; 15 outer-fold × seed evaluations) and `n_minority_train` (median minority-class training samples after balancing, i.e. real impacted plus synthetic images or ROS duplicates) are reported for each training ratio, with the natural-ratio (1.78:1) results from the primary analysis included as a reference. At 10:1, ROS-35 can duplicate at most the 26 available real impacted patients.
+
 - **`resolution_sensitivity.csv`**
   DenseNet-121 minority-F1, macro-F1, and PR-AUC (mean, SD) at the primary 256x256 setting (n=15) and at 384x768 with true aspect-preserving letterbox padding (n=9), for WRS, GPT-10, GPT-35, ROS-70, and Mixed-70.
 

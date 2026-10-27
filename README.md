@@ -42,7 +42,9 @@ Under a nested patient-level cross-validation protocol with repeated training se
 │   └── ...                   inferential/statistical analyses (see below)
 ├── figures/
 │   ├── README.md
-│   └── figure4_forest_primary_lmm_contrasts.{png,pdf}
+│   ├── figure4_forest_primary_lmm_contrasts.{png,pdf}
+│   ├── severe_imbalance_minority_f1.{png,pdf}   supplementary severe-imbalance experiment
+│   └── dataset/              real/synthetic examples, class distribution, feature-space PCA
 ├── code/
 │   └── README.md             released after manuscript acceptance
 └── README.md

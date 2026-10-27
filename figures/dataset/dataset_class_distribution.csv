@@ -1,0 +1,5 @@
+split,impacted,non_impacted,ratio
+Full dataset,254,451,1.78
+Outer fold 1,84,151,1.8
+Outer fold 2,85,150,1.76
+Outer fold 3,85,150,1.76
