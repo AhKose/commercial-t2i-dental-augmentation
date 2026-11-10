@@ -4,6 +4,8 @@ Supplementary repository for the study:
 
 **Text-to-Image–Based Synthetic Data Augmentation Using Commercial Models for Addressing Class Imbalance in Impacted Teeth Classification**
 
+Published in *IEEE Access*, vol. 14, pp. 170270–170287, 2026. DOI: [10.1109/ACCESS.2026.3749443](https://doi.org/10.1109/ACCESS.2026.3749443) · [IEEE Xplore](https://ieeexplore.ieee.org/document/11769914)
+
 This repository contains supplementary materials used to support the transparency and reproducibility of the study, including synthetic images, patient-level nested fold partitions, representative prompt examples, expert-validation records, results tables, statistical analyses, and source code to be released after manuscript acceptance.
 
 ## Overview
@@ -139,4 +141,19 @@ They should not be interpreted as clinically valid radiographs, diagnostic refer
 
 ## Citation
 
-Citation information will be added after publication.
+If you use the materials in this repository, please cite:
+
+A. H. Köse, R. Yılmaz, E. Yılmaz, and E. M. Ekşioğlu, "Text-to-Image-Based Synthetic Data Augmentation Using Commercial Models for Addressing Class Imbalance in Impacted Teeth Classification," *IEEE Access*, vol. 14, pp. 170270–170287, 2026, doi: [10.1109/ACCESS.2026.3749443](https://doi.org/10.1109/ACCESS.2026.3749443).
+
+```bibtex
+@article{kose2026t2i,
+  author  = {K{\"o}se, Abdullah Huzeyfe and Y{\i}lmaz, Rahime and Y{\i}lmaz, Elif and Ek{\c{s}}io{\u{g}}lu, Ender Mete},
+  title   = {Text-to-Image-Based Synthetic Data Augmentation Using Commercial Models for Addressing Class Imbalance in Impacted Teeth Classification},
+  journal = {IEEE Access},
+  volume  = {14},
+  pages   = {170270--170287},
+  year    = {2026},
+  doi     = {10.1109/ACCESS.2026.3749443},
+  url     = {https://ieeexplore.ieee.org/document/11769914}
+}
+```
